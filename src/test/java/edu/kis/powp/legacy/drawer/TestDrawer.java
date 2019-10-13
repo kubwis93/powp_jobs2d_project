@@ -19,7 +19,7 @@ public class TestDrawer {
 		DefaultDrawerFrame.getDefaultDrawerFrame().setVisible(true);
 		ILine line = LineFactory.getBasicLine();
 		line.setStartCoordinates(-100, -60);
-		line.setEndCoordinates(60, 130);
+		line.setEndCoordinates(10, 10);
 		controller.drawLine(line);
 	}
 }
